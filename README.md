@@ -4,6 +4,12 @@ Genera las publicaciones para el sitio web www.ekipainteriores.com
 
 El primer parámetro es el nombre del archivo que contiene el inventario, el segundo parámetro es el dominio web que se anexará a las url de las fotografías en cada publicación.
 
+## Instalación
+
+    $ npm install ekipainteriores-generator -g
+
+## Ejemplo
+
     $ ekipainteriores data.csv ekipainteriores.com
 
 ## Requerimientos
