@@ -1,0 +1,19 @@
+{
+  "name": "ekipainteriores-generator",
+  "version": "0.0.1",
+  "description": "Convert CSV Data to Jekyll Post",
+  "main": "index.js",
+  "repository": "git@github.com:ChocoyoLabs/ekipainteriores-generator.git",
+  "author": "Paulo McNally <paulo.mcnally@chocoyolabs.com>",
+  "license": "MIT",
+  "bin": {
+    "ekipainteriores": "cli.js"
+  },
+  "dependencies": {
+    "csvtojson": "^1.1.6",
+    "dateformat": "^2.0.0",
+    "sharp": "^0.18.1",
+    "slug": "^0.9.1",
+    "yamljs": "^0.2.10"
+  }
+}
