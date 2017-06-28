@@ -27,3 +27,7 @@ Convertir archivos PNG a JPG
 Renombrar archivos a minuscula
 
     $ rename 'y/A-Z/a-z/' *
+
+Renombrar la extensión de arhcivos JPEG a JPG
+
+    $ find . -name "*.jpeg*" -exec rename -v 's/\.jpeg$/\.jpg/i' {} \;
