@@ -1,5 +1,7 @@
 # ekipainteriores-generator
 
+> Solo trabaja con archivos JPG. Para convertir a JPG ver los comandos más abajo.
+
 Genera las publicaciones para el sitio web www.ekipainteriores.com
 
 El primer parámetro es el nombre del archivo que contiene el inventario, el segundo parámetro es el dominio web que se anexará a las url de las fotografías en cada publicación.
